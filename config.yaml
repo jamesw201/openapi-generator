@@ -1,0 +1,22 @@
+templateDir: custom/generators/site-builder/src/main/resources/site-builder
+additionalProperties:
+  artifactId: petstore-client
+  serializableModel: "true"
+  dateLibrary: java8
+files:
+  AUTHORS.md: {}
+  htmx_item.mustache:
+    folder: htmx
+    templateType: API
+    destinationFilename: Item.html
+  htmx_list.mustache:
+    folder: htmx
+    templateType: API
+    destinationFilename: List.html
+  api.mustache:
+    templateType: API
+    destinationFilename: Impl.java
+  other/check.mustache:
+    folder: scripts
+    destinationFilename: check.sh
+    templateType: SupportingFiles

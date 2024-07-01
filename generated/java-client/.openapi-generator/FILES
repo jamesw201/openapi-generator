@@ -1,0 +1,8 @@
+.openapi-generator-ignore
+AUTHORS.md
+htmx/DefaultApiItem.html
+htmx/DefaultApiList.html
+myFile.sample
+scripts/check.sh
+src/org/openapitools/api/DefaultApiImpl.java
+src/org/openapitools/model/Todo.sample
